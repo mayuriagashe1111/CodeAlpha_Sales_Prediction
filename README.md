@@ -70,7 +70,7 @@ XGBoost R² Score: 0.9886<br>
 
 ## Results
 
-- XGBoost outperformed all other regression models with an R² score of **~98.6%**, showing excellent predictive capability.
+- XGBoost outperformed all other regression models with an R² score of **~98.86%**, showing excellent predictive capability.
 - TV and Radio were found to be more influential on sales than Newspaper.
 
 ---
