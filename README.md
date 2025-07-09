@@ -94,6 +94,6 @@ XGBoost R² Score: 0.9886<br>
 ## Contact
 
 **Author**: Mayuri Sanjay Agashe<br>
-**LinkedIn**: www.linkedin.com/in/mayuri-agashe<br>
+**GitHub**:https://github.com/mayuriagashe1111 <br>
 **Email**: mayuriagashe2001@gmail.com
 
