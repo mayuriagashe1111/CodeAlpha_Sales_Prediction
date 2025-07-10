@@ -39,7 +39,7 @@ iv) Train-test split (70-30)<br>
 To set up the project, follow these steps:
 
 ### Clone the repository
-git clone https://github.com/your-username/sales-prediction-xgboost.git
+git clone https://github.com/mayuriagashe1111/CodeAlpha_Sales_Prediction.git
 
 ### Navigate to the project directory
 cd sales-prediction-xgboost
