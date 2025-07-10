@@ -4,13 +4,13 @@ Predict product sales using various regression models including a hyperparameter
 ---
 
 ## Table of Contents
-Project Overview <br>
-Dataset <br>
-Installation <br>
-Usage <br>
-Results & Visualization <br>
-Contributing <br>
-Contact <br>
+i)Project Overview <br>
+ii)Dataset <br>
+iii)Installation <br>
+iv)Usage <br>
+v)Results & Visualization <br>
+vi)Contributing <br>
+vii)Contact <br>
 
 ---
 
@@ -21,16 +21,17 @@ This project focuses on predicting sales based on advertising budgets across TV,
 ---
 
 ## 2. Dataset
-The dataset used is Advertising.csv, which includes the following columns:
-TV: Budget allocated to TV ads
-Radio: Budget allocated to Radio ads
-Newspaper: Budget allocated to Newspaper ads
-Sales: Actual sales figures (target variable)
-Preprocessing steps include:
-Dropping nulls and duplicates
-Removing unnecessary columns
-Splitting into features and target
-Train-test split (70-30)
+The dataset used is Advertising.csv, which includes the following columns:<br>
+i)TV: Budget allocated to TV ads<br>
+ii)Radio: Budget allocated to Radio ads<br>
+iii)Newspaper: Budget allocated to Newspaper ads<br>
+iv)Sales: Actual sales figures (target variable)<br>
+
+Preprocessing steps include:<br>
+i)Dropping nulls and duplicates<br>
+ii)Removing unnecessary columns<br>
+iii)Splitting into features and target<br>
+iv)Train-test split (70-30)<br>
 
 ---
 
@@ -62,17 +63,17 @@ v) Visualize actual vs. predicted sales and feature importance.
 ## 5. Results & Visualization
 Here are some insights and visualizations generated:
 
-Model Evaluation Metrics (MAE, MSE, MAPE, R²)
-XGBoost Best R² Score: ~0.9859
-Feature Importance Graph
-Actual vs Predicted Sales Plots
-Regplot Analysis for each advertising channel
+a)Model Evaluation Metrics (MAE, MSE, MAPE, R²)
+b)XGBoost Best R² Score: ~0.9886
+c)Feature Importance Graph
+d)Actual vs Predicted Sales Plots
+e)Regplot Analysis for each advertising channel
 
 ---
 
 ## 6. Contributing
-Contributions are welcome! Feel free to:
-Raise issues
+Contributions are welcome! Feel free to:<br>
+Raise issues<br>
 Submit pull requests
 
 ---
