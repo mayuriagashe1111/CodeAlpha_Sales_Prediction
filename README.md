@@ -1,98 +1,83 @@
 ## Sales Prediction using Regression Models & XGBoost
-
-This project demonstrates how machine learning regression techniques can be used to predict sales based on advertising budgets allocated to TV, Radio, and Newspaper. The dataset used is a classic Advertising dataset commonly used for introductory regression problems.
-
----
-## Project Objective
-
-To predict the **Sales** of a product using multiple regression algorithms and evaluate their performance, ultimately applying hyperparameter-tuned **XGBoost Regressor** to achieve optimal accuracy.
-
----
-## Dataset
-
-- **Source**: `Advertising.csv`
-- **Features**:
-  - `TV`: Advertising budget spent on TV (in thousands of dollars)
-  - `Radio`: Advertising budget spent on Radio
-  - `Newspaper`: Advertising budget spent on Newspaper
-- **Target**:
-  - `Sales`: Sales value in thousands of units
+Predict product sales using various regression models including a hyperparameter-tuned XGBoost Regressor.
 
 ---
 
-## Technologies Used
-
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn (Data Visualization)
-- Scikit-learn (Regression Models)
-- XGBoost (Extreme Gradient Boosting)
-
----
-
-## Workflow Summary
-
-1. **Data Cleaning**:
-   - Removed missing values and duplicates.
-   - Dropped unnecessary columns.
-
-2. **Data Visualization**:
-   - Visualized relationship between features and sales using regplot.
-
-3. **Model Training & Evaluation**:
-   - Trained multiple regression models:
-     - Linear Regression
-     - Decision Tree
-     - Random Forest
-     - SVR
-     - K-Nearest Neighbors
-     - Gradient Boosting
-   - Evaluated each model using:
-     - MAE, MSE, MAPE, and R² Score
-
-4. **XGBoost Regression**:
-   - Applied hyperparameter tuning using `GridSearchCV`
-   - Evaluated the best estimator
-   - Visualized feature importance
-   - Compared actual vs predicted results
+## Table of Contents
+Project Overview <br>
+Dataset <br>
+Installation <br>
+Usage <br>
+Results & Visualization <br>
+Contributing <br>
+Contact <br>
 
 ---
 
-## Evaluation Metrics
-XGBoost MAE: 0.3907<br>
-XGBoost MSE: 0.2842<br>
-XGBoost MAPE: 0.0288<br>
-XGBoost R² Score: 0.9886<br>
 
+## 1. Project Overview
+This project focuses on predicting sales based on advertising budgets across TV, Radio, and Newspaper channels. Multiple regression models like Linear Regression, Random Forest, and SVR are trained and compared. The final model is a tuned XGBoost Regressor, which delivers superior accuracy and feature insights.
 
 ---
 
-## Results
-
-- XGBoost outperformed all other regression models with an R² score of **~98.86%**, showing excellent predictive capability.
-- TV and Radio were found to be more influential on sales than Newspaper.
-
----
-
-## Visual Outputs
-
-- Regplots for each feature vs Sales
-- Actual vs Predicted Sales line plot
-- XGBoost feature importance bar chart
-
----
-
-## Future Scope
-
-- Extend the model to time-series forecasting
-- Add interaction terms or polynomial features
-- Deploy using Flask or Streamlit for live predictions
+## 2. Dataset
+The dataset used is Advertising.csv, which includes the following columns:
+TV: Budget allocated to TV ads
+Radio: Budget allocated to Radio ads
+Newspaper: Budget allocated to Newspaper ads
+Sales: Actual sales figures (target variable)
+Preprocessing steps include:
+Dropping nulls and duplicates
+Removing unnecessary columns
+Splitting into features and target
+Train-test split (70-30)
 
 ---
 
-## Contact
+## 3. Installation
+To set up the project, follow these steps:
 
-**Author**: Mayuri Sanjay Agashe<br>
-**GitHub**:https://github.com/mayuriagashe1111 <br>
-**Email**: mayuriagashe2001@gmail.com
+### Clone the repository
+git clone https://github.com/your-username/sales-prediction-xgboost.git
 
+### Navigate to the project directory
+cd sales-prediction-xgboost
+
+### Install required dependencies
+pip install -r requirements.txt
+Or manually install:
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost
+
+---
+
+## 4. Usage
+i) Open the Jupyter Notebook (Sales_Prediction.ipynb). <br>
+ii) Run the cells to load and explore the dataset. <br>
+iii) Train different regression models and compare results. <br>
+iv) Perform hyperparameter tuning using GridSearchCV for XGBoost. <br>
+v) Visualize actual vs. predicted sales and feature importance.
+
+---
+
+## 5. Results & Visualization
+Here are some insights and visualizations generated:
+
+Model Evaluation Metrics (MAE, MSE, MAPE, R²)
+XGBoost Best R² Score: ~0.9859
+Feature Importance Graph
+Actual vs Predicted Sales Plots
+Regplot Analysis for each advertising channel
+
+---
+
+## 6. Contributing
+Contributions are welcome! Feel free to:
+Raise issues
+Submit pull requests
+
+---
+
+## 7. Contact
+For any queries, reach out:
+📧 Email: mayuriagashe2001@gmail.com <br>
+💻 GitHub: mayuriagashe1111
