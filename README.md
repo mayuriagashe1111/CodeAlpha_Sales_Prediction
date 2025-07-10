@@ -1,4 +1,3 @@
-# CodeAlpha_Sales_Prediction
 ## Sales Prediction using Regression Models & XGBoost
 
 This project demonstrates how machine learning regression techniques can be used to predict sales based on advertising budgets allocated to TV, Radio, and Newspaper. The dataset used is a classic Advertising dataset commonly used for introductory regression problems.
