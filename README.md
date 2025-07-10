@@ -4,13 +4,13 @@ Predict product sales using various regression models including a hyperparameter
 ---
 
 ## Table of Contents
-i)Project Overview <br>
-ii)Dataset <br>
-iii)Installation <br>
-iv)Usage <br>
-v)Results & Visualization <br>
-vi)Contributing <br>
-vii)Contact <br>
+1. Project Overview <br>
+2. Dataset <br>
+3. Installation <br>
+4. Usage <br>
+5. Results & Visualization <br>
+6. Contributing <br>
+7. Contact <br>
 
 ---
 
@@ -22,16 +22,16 @@ This project focuses on predicting sales based on advertising budgets across TV,
 
 ## 2. Dataset
 The dataset used is Advertising.csv, which includes the following columns:<br>
-i)TV: Budget allocated to TV ads<br>
-ii)Radio: Budget allocated to Radio ads<br>
-iii)Newspaper: Budget allocated to Newspaper ads<br>
-iv)Sales: Actual sales figures (target variable)<br>
+i) TV: Budget allocated to TV ads<br>
+ii) Radio: Budget allocated to Radio ads<br>
+iii) Newspaper: Budget allocated to Newspaper ads<br>
+iv) Sales: Actual sales figures (target variable)<br>
 
 Preprocessing steps include:<br>
-i)Dropping nulls and duplicates<br>
-ii)Removing unnecessary columns<br>
-iii)Splitting into features and target<br>
-iv)Train-test split (70-30)<br>
+i) Dropping nulls and duplicates<br>
+ii) Removing unnecessary columns<br>
+iii) Splitting into features and target<br>
+iv) Train-test split (70-30)<br>
 
 ---
 
@@ -45,8 +45,8 @@ git clone https://github.com/your-username/sales-prediction-xgboost.git
 cd sales-prediction-xgboost
 
 ### Install required dependencies
-pip install -r requirements.txt
-Or manually install:
+pip install -r requirements.txt<br>
+Or manually install:<br>
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 
 ---
@@ -63,11 +63,11 @@ v) Visualize actual vs. predicted sales and feature importance.
 ## 5. Results & Visualization
 Here are some insights and visualizations generated:
 
-a)Model Evaluation Metrics (MAE, MSE, MAPE, R²)
-b)XGBoost Best R² Score: ~0.9886
-c)Feature Importance Graph
-d)Actual vs Predicted Sales Plots
-e)Regplot Analysis for each advertising channel
+a) Model Evaluation Metrics (MAE, MSE, MAPE, R²)
+b) XGBoost Best R² Score: ~0.9886
+c) Feature Importance Graph
+d) Actual vs Predicted Sales Plots
+e) Regplot Analysis for each advertising channel
 
 ---
 
