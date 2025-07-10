@@ -78,6 +78,6 @@ Submit pull requests
 ---
 
 ## 7. Contact
-For any queries, reach out:
+For any queries, reach out:<br>
 📧 Email: mayuriagashe2001@gmail.com <br>
 💻 GitHub: mayuriagashe1111
